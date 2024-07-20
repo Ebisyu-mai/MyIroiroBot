@@ -30,7 +30,7 @@ module.exports = (robot) => {
     else {
       res.send({
         question: 'どのゲームで遊びますか？',
-        options: ['Hit & Blow', 'お絵描きバトル', 'おしゃべりララちゃん'],
+        options: ['Hit & Blow', 'お絵描きバトル'],
         onsend: (sent) => {
           questionSentId[res.message.rooms[res.message.room].id] = sent.message.id;
         }
@@ -209,7 +209,7 @@ robot.respond('file', (res) => {  // ファイルがアップロードされた�
           gameNum = 0
           game1Start = 0
         }
-        else if (answerNum > 0) {
+        else if (answerNum > 1) {
           answerNum--;
           res.send('今の回答はhit:'+ hit + ' blow:' + blow + ' でした' + "\n" + 'あなたの残りの回答回数は' + answerNum + '回です' + "\n" + '数字を入力してください');
         }
