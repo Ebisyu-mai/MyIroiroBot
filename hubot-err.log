@@ -1,0 +1,46 @@
+
+
+#
+# Fatal error in , line 0
+# Fatal JavaScript invalid size error 169220804
+#
+#
+#
+#FailureMessage Object: 0x16d4c9f78
+ 1: 0x102a500e0 node::NodePlatform::GetStackTracePrinter()::$_3::__invoke() [/usr/local/bin/node]
+ 2: 0x103804f24 V8_Fatal(char const*, ...) [/usr/local/bin/node]
+ 3: 0x102c8c114 v8::internal::FactoryBase<v8::internal::Factory>::NewFixedArrayWithFiller(v8::internal::Handle<v8::internal::Map>, int, v8::internal::Handle<v8::internal::Oddball>, v8::internal::AllocationType) [/usr/local/bin/node]
+ 4: 0x102df2fa8 v8::internal::(anonymous namespace)::ElementsAccessorBase<v8::internal::(anonymous namespace)::FastPackedObjectElementsAccessor, v8::internal::(anonymous namespace)::ElementsKindTraits<(v8::internal::ElementsKind)2>>::GrowCapacity(v8::internal::Handle<v8::internal::JSObject>, unsigned int) [/usr/local/bin/node]
+ 5: 0x102fcc644 v8::internal::Runtime_GrowArrayElements(int, unsigned long*, v8::internal::Isolate*) [/usr/local/bin/node]
+ 6: 0x1032ef8ec Builtins_CEntry_Return1_DontSaveFPRegs_ArgvOnStack_NoBuiltinExit [/usr/local/bin/node]
+ 7: 0x107a576a4 
+ 8: 0x103283578 Builtins_InterpreterEntryTrampoline [/usr/local/bin/node]
+ 9: 0x103283578 Builtins_InterpreterEntryTrampoline [/usr/local/bin/node]
+10: 0x107a2d018 
+11: 0x107a1f900 
+12: 0x107a2d0f8 
+13: 0x107a1f900 
+14: 0x107a2aa9c 
+15: 0x107a55d24 
+16: 0x107a2c4d0 
+17: 0x107a1f040 
+18: 0x107a336fc 
+19: 0x107a1f040 
+20: 0x107a33988 
+21: 0x107a1f040 
+22: 0x1079f9720 
+23: 0x10328136c Builtins_JSEntryTrampoline [/usr/local/bin/node]
+24: 0x103281004 Builtins_JSEntry [/usr/local/bin/node]
+25: 0x102c447ec v8::internal::(anonymous namespace)::Invoke(v8::internal::Isolate*, v8::internal::(anonymous namespace)::InvokeParams const&) [/usr/local/bin/node]
+26: 0x102c43e88 v8::internal::Execution::Call(v8::internal::Isolate*, v8::internal::Handle<v8::internal::Object>, v8::internal::Handle<v8::internal::Object>, int, v8::internal::Handle<v8::internal::Object>*) [/usr/local/bin/node]
+27: 0x102b51f9c v8::Function::Call(v8::Local<v8::Context>, v8::Local<v8::Value>, int, v8::Local<v8::Value>*) [/usr/local/bin/node]
+28: 0x102938cfc node::InternalCallbackScope::Close() [/usr/local/bin/node]
+29: 0x1029387c4 node::InternalCallbackScope::~InternalCallbackScope() [/usr/local/bin/node]
+30: 0x10299c074 node::Environment::RunTimers(uv_timer_s*) [/usr/local/bin/node]
+31: 0x1032625a0 uv__run_timers [/usr/local/bin/node]
+32: 0x1032655fc uv_run [/usr/local/bin/node]
+33: 0x1029396c0 node::SpinEventLoop(node::Environment*) [/usr/local/bin/node]
+34: 0x102a2c800 node::NodeMainInstance::Run(int*, node::Environment*) [/usr/local/bin/node]
+35: 0x102a2c4ec node::NodeMainInstance::Run() [/usr/local/bin/node]
+36: 0x1029c4370 node::Start(int, char**) [/usr/local/bin/node]
+37: 0x196db20e0 start [/usr/lib/dyld]
