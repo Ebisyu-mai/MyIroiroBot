@@ -237,7 +237,7 @@ robot.respond('file', (res) => {  // ファイルがアップロードされた�
         res.send(drawQuestion + '問目のお題は『' + foodThema[mondai] + '』です！');
         game2Start = 1;
       }
-      else if (drawThema !== 0) {
+      else if (drawThema !== 0 && game2Start === 0) {
         res.send('始めるには「スタート」と入力してください');
       }
 
