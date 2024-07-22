@@ -245,7 +245,6 @@ robot.respond('file', (res) => {  // ファイルがアップロードされた�
     else if (txt !== 'Hubot メニュー') {
       res.send('何かご用がある場合は「メニュー」と入力してください');
     }
-    //res.send(`Your message is ` + txt);
   });
 };
 

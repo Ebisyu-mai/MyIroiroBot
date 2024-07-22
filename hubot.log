@@ -374,3 +374,9 @@
 {"level":30,"time":1721472738344,"pid":90628,"hostname":"raichuu.local","name":"direct-js","p1":"WebSocket opened.","p2":"","p3":"","p4":"","p5":""}
 {"level":30,"time":1721472738745,"pid":90628,"hostname":"raichuu.local","name":"Hubot","msg":"/Users/ukigaishion/Desktop/４年/分散情報システム/最終課題/MyIroiroBot/scripts/myBot.js is using deprecated documentation syntax"}
 {"level":30,"time":1721472738760,"pid":90628,"hostname":"raichuu.local","name":"Hubot","msg":"hubot-redis-brain: Discovered redis from REDIS_URL environment variable"}
+{"level":30,"time":1721474228280,"pid":91099,"hostname":"raichuu.local","name":"direct-js","p1":"WebSocket opened.","p2":"","p3":"","p4":"","p5":""}
+{"level":30,"time":1721474228666,"pid":91099,"hostname":"raichuu.local","name":"Hubot","msg":"/Users/ukigaishion/Desktop/４年/分散情報システム/最終課題/MyIroiroBot/scripts/myBot.js is using deprecated documentation syntax"}
+{"level":30,"time":1721474228688,"pid":91099,"hostname":"raichuu.local","name":"Hubot","msg":"hubot-redis-brain: Discovered redis from REDIS_URL environment variable"}
+{"level":30,"time":1721475255045,"pid":91385,"hostname":"raichuu.local","name":"direct-js","p1":"WebSocket opened.","p2":"","p3":"","p4":"","p5":""}
+{"level":30,"time":1721475255560,"pid":91385,"hostname":"raichuu.local","name":"Hubot","msg":"/Users/ukigaishion/Desktop/４年/分散情報システム/最終課題/MyIroiroBot/scripts/myBot.js is using deprecated documentation syntax"}
+{"level":30,"time":1721475255576,"pid":91385,"hostname":"raichuu.local","name":"Hubot","msg":"hubot-redis-brain: Discovered redis from REDIS_URL environment variable"}
